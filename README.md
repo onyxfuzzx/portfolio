@@ -1,4 +1,5 @@
 # Portfolio
+<img width="1919" height="948" alt="image" src="https://github.com/user-attachments/assets/19501092-eb36-4c95-be74-1308433318c5" />
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
 
