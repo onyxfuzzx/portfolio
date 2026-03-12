@@ -363,7 +363,7 @@ export class ProjectsComponent {
         'Parallel execution via ThreadPoolExecutor for fast results',
         'Dark modern UI with responsive design and purple accents',
       ],
-      github: 'https://github.com/onyxfuzzx/pro_news',
+      github: 'https://github.com/onyxfuzzx/AI-News-Analyzer',
     },
   ];
 }
