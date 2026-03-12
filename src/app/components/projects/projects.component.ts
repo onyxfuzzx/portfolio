@@ -353,7 +353,7 @@ export class ProjectsComponent {
       title: 'The AI Chronicle — AI News Analyzer',
       description: 'An intelligent Flask web app that analyzes news articles using AI. Paste any URL and instantly get a structured summary, sentiment analysis, authenticity verification, and related coverage.',
       icon: '<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M8 8h8"/><path d="M8 12h5"/><path d="M8 16h8"/><circle cx="17" cy="13" r="3" fill="rgba(168,85,247,0.3)"/><path d="M19.5 15.5l2 2"/></svg>',
-      date: 'Mar 2026',
+      date: 'Nov 2025',
       gradient: 'linear-gradient(135deg, rgba(168,85,247,0.3), rgba(236,72,153,0.3))',
       tags: ['Python', 'Flask', 'Groq', 'LangChain', 'BeautifulSoup4', 'LLM'],
       features: [

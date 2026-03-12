@@ -224,7 +224,7 @@ export class AboutComponent {
   highlights = [
     { icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8b83ff" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 6 3 6 3s6-1 6-3v-5"/></svg>', value: 'B.Sc DS & AI', label: 'Education', gradient: 'linear-gradient(135deg, rgba(108,99,255,0.2), rgba(0,212,255,0.2))' },
     { icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00ff88" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>', value: 'Intern', label: 'Experience', gradient: 'linear-gradient(135deg, rgba(0,255,136,0.2), rgba(0,212,255,0.2))' },
-    { icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ff6b9d" stroke-width="2"><path d="M2 20h20"/><path d="M5 20V10l7-6 7 6v10"/><path d="M9 20v-6h6v6"/></svg>', value: '3+ Projects', label: 'Built', gradient: 'linear-gradient(135deg, rgba(255,107,157,0.2), rgba(255,159,67,0.2))' },
+    { icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ff6b9d" stroke-width="2"><path d="M2 20h20"/><path d="M5 20V10l7-6 7 6v10"/><path d="M9 20v-6h6v6"/></svg>', value: '20+ Projects', label: 'Built', gradient: 'linear-gradient(135deg, rgba(255,107,157,0.2), rgba(255,159,67,0.2))' },
     { icon: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ff9f43" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>', value: 'Mumbai', label: 'Location', gradient: 'linear-gradient(135deg, rgba(255,159,67,0.2), rgba(108,99,255,0.2))' },
   ];
 }
