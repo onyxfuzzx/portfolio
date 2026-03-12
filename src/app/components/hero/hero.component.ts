@@ -532,8 +532,10 @@ import { CommonModule } from '@angular/common';
     .scroll-indicator {
       position: absolute;
       bottom: 30px;
-      left: 50%;
-      transform: translateX(-50%);
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: fit-content;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -581,15 +583,17 @@ import { CommonModule } from '@angular/common';
       }
 
       .hero-description {
-        margin: 0 auto 32px;
+        margin: 0 auto 24px;
       }
 
       .hero-stats {
         justify-content: center;
+        margin-bottom: 24px;
       }
 
       .hero-actions {
         justify-content: center;
+        margin-bottom: 20px;
       }
 
       .hero-socials {
@@ -601,7 +605,7 @@ import { CommonModule } from '@angular/common';
       }
 
       .hero-badge {
-        margin: 0 auto 24px;
+        margin: 0 auto 16px;
       }
 
       .hero-right {
@@ -619,12 +623,18 @@ import { CommonModule } from '@angular/common';
 
     @media (max-width: 480px) {
       .hero {
-        padding-top: 80px;
+        padding-top: 70px;
+        padding-bottom: 20px;
+      }
+
+      .hero-content {
+        gap: 24px;
       }
 
       .hero-title {
         font-size: 1.75rem;
         line-height: 1.2;
+        margin-bottom: 8px;
       }
 
       .hero-name {
@@ -635,11 +645,17 @@ import { CommonModule } from '@angular/common';
         font-size: 0.9rem;
         flex-wrap: wrap;
         gap: 6px;
+        margin-bottom: 10px;
       }
 
       .hero-description {
         font-size: 0.9rem;
         max-width: 100%;
+        margin: 0 auto 16px;
+      }
+
+      .hero-stats {
+        margin-bottom: 16px;
       }
 
       .hero-visual {
@@ -672,11 +688,13 @@ import { CommonModule } from '@angular/common';
       .hero-actions {
         flex-direction: column;
         align-items: stretch;
-        gap: 12px;
+        gap: 10px;
+        margin-bottom: 12px;
 
         .btn-primary, .btn-outline {
           justify-content: center;
           width: 100%;
+          padding: 10px 24px;
         }
       }
 

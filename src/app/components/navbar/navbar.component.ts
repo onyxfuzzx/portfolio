@@ -177,6 +177,13 @@ import { SafeHtmlPipe } from '../../pipes/safe-html.pipe';
 
       @media (max-width: 768px) {
         display: flex;
+        position: relative;
+
+        &.active {
+          position: fixed;
+          top: 20px;
+          right: 24px;
+        }
       }
     }
   `]
